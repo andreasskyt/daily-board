@@ -1,0 +1,13 @@
+{
+  "name": "skyt-systems",
+  "owner": {
+    "name": "Andreas Skyt"
+  },
+  "plugins": [
+    {
+      "name": "daily-board",
+      "source": "./",
+      "description": "A daily must-do board above the Claude Code prompt: goals, counters, toggles and checklists, with an optional gate that locks build tools until the counters are met."
+    }
+  ]
+}

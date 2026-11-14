@@ -1,0 +1,40 @@
+{
+  "name": "daily-board",
+  "version": "0.1.0",
+  "description": "A daily must-do board above the prompt: up to three goals plus your own counters, toggles and checklists, one colored status line that expands into a card. Optional gate that locks build tools until the counters are met.",
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "title": {
+      "type": "string",
+      "title": "Board title",
+      "description": "Shown in the card header.",
+      "default": "THE DAY"
+    },
+    "goal_name": {
+      "type": "string",
+      "title": "Goal name",
+      "description": "What a daily goal is called, for example MIT, Goal or Focus. It is also the slash command that sets goals: MIT gives /mit.",
+      "default": "MIT"
+    },
+    "goal_slots": {
+      "type": "number",
+      "title": "Goal slots",
+      "description": "How many goals you can set per day, 0 to 3. Only the goals set for the day are shown.",
+      "default": 3,
+      "min": 0,
+      "max": 3
+    },
+    "marker": {
+      "type": "string",
+      "title": "Progress marker",
+      "description": "How counter progress is drawn: square, circle or bar.",
+      "default": "square"
+    },
+    "gate": {
+      "type": "boolean",
+      "title": "Lock build tools until counters are met",
+      "description": "On weekdays, Edit, Write, NotebookEdit and Bash are refused until every counter has reached its target. Typing OVERRIDE and a reason opens the gate for the rest of the day.",
+      "default": false
+    }
+  }
+}
