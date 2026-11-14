@@ -6,8 +6,13 @@
   "plugins": [
     {
       "name": "daily-board",
-      "source": "./",
+      "source": "./plugins/daily-board",
       "description": "A daily must-do board above the Claude Code prompt: goals, counters, toggles and checklists, with an optional gate that locks build tools until the counters are met."
+    },
+    {
+      "name": "usage-panel",
+      "source": "./plugins/usage-panel",
+      "description": "A side panel that shows Claude Code usage in color: context window by category, plan limits, session cost and tokens, daily totals, and MCP and tool calls."
     }
   ]
 }

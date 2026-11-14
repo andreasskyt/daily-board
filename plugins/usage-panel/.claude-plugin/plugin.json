@@ -1,0 +1,21 @@
+{
+  "name": "usage-panel",
+  "version": "0.1.0",
+  "description": "A side panel that shows usage in color: the context window by category, the plan's rate-limit windows, this session's cost and tokens, this computer's totals for today, 7 and 30 days, and tool and MCP calls. /meter opens it.",
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "auto_open": {
+      "type": "boolean",
+      "title": "Open the panel when a session starts",
+      "description": "Off: the panel opens only when you run /meter.",
+      "default": true
+    },
+    "mcp_names": {
+      "type": "string",
+      "multiple": true,
+      "title": "Names for MCP connectors",
+      "description": "Connectors show up by id. Give them names, one per entry, as id=Name. The first 8 characters of the id are enough, for example 1a2b3c4d=Attio.",
+      "default": []
+    }
+  }
+}
