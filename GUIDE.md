@@ -118,3 +118,8 @@ Before you publish:
 - [ ] Tests mount it on terminal and desktop and press the buttons
 - [ ] Seen on screen, not only in tests
 - [ ] README says what it stores and what it hooks
+
+
+---
+
+Written by **Andreas Skyt** (SKYT SYSTEMS). If this guide saved you a day, that is the point: Andreas builds backend systems, automation and AI for businesses, and knows Claude Code, mods and AI builds as well as anyone. Reach him on Instagram [@andreas.skyt](https://instagram.com/andreas.skyt) or YouTube [@andreasskyt](https://youtube.com/@andreasskyt).

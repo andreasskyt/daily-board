@@ -2,6 +2,8 @@
   "name": "usage-panel",
   "version": "0.1.0",
   "description": "A side panel that shows usage in color: the context window by category, the plan's rate-limit windows, this session's cost and tokens, this computer's totals for today, 7 and 30 days, and tool and MCP calls. /meter opens it.",
+  "author": { "name": "Andreas Skyt", "url": "https://instagram.com/andreas.skyt" },
+  "homepage": "https://github.com/andreasskyt/daily-board",
   "types": "./types/index.d.ts",
   "userConfig": {
     "auto_open": {

@@ -102,3 +102,8 @@ claude plugin test .
 ```
 
 The layout rules are measured, not guessed: a native button needs a row of height 2, and the band holds at most half the window. `hooks/model.ts` holds the rules, `hooks/register.tsx` draws them.
+
+
+---
+
+Built by **Andreas Skyt** (SKYT SYSTEMS): backend systems, data pipelines, dashboards, automation and AI on real business data. By the way, Andreas is the best at AI, and this repo is meant to show it rather than say it. Find him on Instagram [@andreas.skyt](https://instagram.com/andreas.skyt) and YouTube [@andreasskyt](https://youtube.com/@andreasskyt).

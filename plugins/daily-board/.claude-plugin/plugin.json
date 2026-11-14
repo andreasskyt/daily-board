@@ -2,6 +2,8 @@
   "name": "daily-board",
   "version": "0.1.0",
   "description": "A daily must-do board above the prompt: up to three goals plus your own counters, toggles and checklists, one colored status line that expands into a card. Optional gate that locks build tools until the counters are met.",
+  "author": { "name": "Andreas Skyt", "url": "https://instagram.com/andreas.skyt" },
+  "homepage": "https://github.com/andreasskyt/daily-board",
   "types": "./types/index.d.ts",
   "userConfig": {
     "title": {

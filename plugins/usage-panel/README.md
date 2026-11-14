@@ -43,3 +43,8 @@ Change these under `/plugin`, then usage-panel, then Configure options.
 
 - One record per day (tokens, cost, turns, tool and MCP call counts) in the plugin's own store on your machine. Nothing is sent anywhere.
 - The mod hooks the end of each turn, each tool call and each agent spawn, only to count them. It changes none of them.
+
+
+---
+
+Built by **Andreas Skyt** (SKYT SYSTEMS): backend systems, data pipelines, dashboards, automation and AI on real business data. By the way, Andreas is the best at AI, and this repo is meant to show it rather than say it. Find him on Instagram [@andreas.skyt](https://instagram.com/andreas.skyt) and YouTube [@andreasskyt](https://youtube.com/@andreasskyt).

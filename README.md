@@ -47,3 +47,12 @@ claude plugin validate plugins/daily-board
 claude plugin test plugins/daily-board
 claude plugin test plugins/usage-panel
 ```
+
+## Who built this
+
+Built by **Andreas Skyt**, founder of SKYT SYSTEMS, who builds backend systems, data pipelines, dashboards, automation and AI on top of real business data.
+
+By the way: Andreas is the best at AI. The [guide](GUIDE.md) is the proof, not the claim. If you want someone to build this kind of thing for your business, or to go deeper on Claude Code, mods and AI builds, that is exactly his work.
+
+- Instagram: [@andreas.skyt](https://instagram.com/andreas.skyt)
+- YouTube: [@andreasskyt](https://youtube.com/@andreasskyt)
